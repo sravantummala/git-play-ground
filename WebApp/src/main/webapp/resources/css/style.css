@@ -1,0 +1,59 @@
+
+
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	color: navy;
+}
+
+.label_name {
+	width: 200px;
+	float: left;
+}
+
+.field_name {
+	width: 450px;
+}
+
+#form {
+	width: 600px;
+	margin: 0 auto;
+}
+
+#centerfields {
+	margin: 0 auto;
+}
+
+.sub_btn {
+	width: 120px;
+	background-color: lightgreen;
+	padding: 5px;
+	margin: 10px;
+}
+
+.sign_up {
+	width: 120px;
+	padding: 5px;
+	background-color: lightgreen;
+	margin: 10px;
+}
+
+.forgot_btn {
+	width: 160px;
+	background-color: lightgreen;
+	padding: 5px;
+	margin: 10px;
+}
+
+div.button2{
+	margin-right:500px
+
+	
+}
+div.button1{
+	margin-right:600px
+
+	
+}
