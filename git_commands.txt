@@ -9,17 +9,45 @@ Ex:git pull origin master
 
 git status = displays untracked files, which are not added to index.
 git add <file name with extension> = adds mentioned file into index.
-git add -A = adds all files from local repo to index. 
+git add -A = adds all files from local repo to index. g
 git commit -m "<description>"
 git commit -a = commits all files from local repo to remote repo.
 git commit -a -m "<description>" 
-git log = logs detailed info on files.
-git branch <branch name>= creates new branch
-git checkout <branch name> = you can switch you given branch
+git log = logs detailed info on files.g
+
+git clone <git repo url>
+
+git branch <branch name>= creates new branch.
+git checkout <branch name> = you can switch you given branch.
+
+git -r = displays all existing branches from remote repo.
 
 git merge <branch name> = you can merge given branch to existing branch.
 Ex: if you are in master branch, then "git merge firstbranch" merges firstbranch to master branch.
 
+ssh- keygen = generates ssh key to include in git repo.
+ssh -T git@github.com = validates ssh key which is addedt to git repo.
+
 cat "<file name>" = displays content in the file
 
-git remote -v = displays remote repos
+
+Delete Local Branch
+--------------------------
+To delete the local branch use:
+
+$ git branch -d branch_name
+
+or use:
+
+$ git branch -D branch_name
+
+Delete Remote Branch
+-----------------------
+
+
+$ git push origin --delete <branch_name>
+
+which might be easier to remember than
+
+$ git push origin :<branch_name>
+
