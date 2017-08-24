@@ -1,0 +1,4 @@
+com\springhibernate\controllers\CustomerController.class
+com\springhibernate\dao\Customerdao.class
+com\springhibernate\entity\CustomersTable.class
+com\springhibernate\dao\CustomerdaoImp.class
