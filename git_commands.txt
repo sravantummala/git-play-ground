@@ -21,14 +21,18 @@ git log = logs detailed info on files.g
 git clone <git repo url>
 
 How to create a branch?
+------------------------
 ans: 
+-----
+>First you need to create branch locally.
+>git branch <branch name>= creates new branch locally.
 
-First you need to create branch locally.
-git branch <branch name>= creates new branch locally.
+>Then you need to push branch to remote repo via
 
-Then you need to push branch to remote repo via
+>git push -u origin <branch name> = creates new branch on remote repo.
 
-git push -u origin <branch name> = creates new branch on remote repo.
+
+
 
 
 git checkout <branch name> = you can switch you given branch.
