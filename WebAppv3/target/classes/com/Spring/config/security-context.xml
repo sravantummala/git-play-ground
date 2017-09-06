@@ -1,0 +1,56 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:security="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-4.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	<security:authentication-manager>
+		<security:authentication-provider>
+			<security:user-service>
+				<security:user name="sravan" authorities="admin"
+					password="sravan" />
+				<security:user name="snig" authorities="admin"
+					password="snig" />
+			</security:user-service>
+		</security:authentication-provider>
+		<security:authentication-provider>
+			<security:jdbc-user-service
+				data-source-ref="basicDataSource" />
+		</security:authentication-provider>
+	</security:authentication-manager>
+
+
+
+	<security:http use-expressions="true" auto-config="true">
+<security:intercept-url access="isAuthenticated()"
+			pattern="/contactus" />
+		<security:intercept-url access="isAuthenticated()"
+			pattern="/aboutus" />
+		<security:intercept-url access="isAuthenticated()"
+			pattern="/welcome" />
+			<security:intercept-url access="permitAll"
+			pattern="/" />
+			<security:intercept-url access="permitAll"
+			pattern="/logout" />
+		<security:intercept-url access="permitAll"
+			pattern="/resources/**" />
+		<security:intercept-url access="permitAll"
+			pattern="/applogin" />
+		
+		
+		<security:intercept-url access="permitAll"
+			pattern="/register" />
+		
+<!-- 		<security:intercept-url access="isAuthenticated()"
+			pattern="/login" /> -->
+
+
+		<!-- <security:intercept-url access="permitAll" pattern="/resources/**" 
+			/> <security:intercept-url access="permitAll" pattern="/home" /> -->
+		<security:intercept-url pattern="/**" access="denyAll" />
+		<security:form-login login-page="/applogin"
+			authentication-failure-url="/applogin?error=true" />
+
+		<security:logout logout-success-url="/applogout"
+			logout-url="/logout" />
+
+	</security:http>
+</beans>
