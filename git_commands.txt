@@ -64,4 +64,7 @@ Delete Remote Branch
 $ git push origin --delete <branch_name> which might be easier to remember than ---> $ git push origin :<branch_name>
 
 
+git remote show origin = displays origin name
+
+
 
