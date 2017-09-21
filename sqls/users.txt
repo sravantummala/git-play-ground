@@ -1,0 +1,9 @@
+drop table users;
+
+CREATE TABLE users (
+    user_id number(20) not null,
+    first_name varchar(255),
+    last_name varchar(255),
+    email varchar(255),
+    phone varchar(255),
+CONSTRAINT userid_pk PRIMARY KEY (user_id));

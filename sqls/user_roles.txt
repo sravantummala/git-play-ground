@@ -1,0 +1,5 @@
+drop table user_roles;
+
+CREATE TABLE user_roles (    
+    email varchar(255),
+    role varchar(255));
