@@ -1,5 +1,5 @@
 # GIT Commands
-- git init = initializes git local repo.
+- **git init** = initializes git local repo.
 - git remote add origin  followed by `cloning path from git hub repo` = duplicates remote repo to local repo.
 - git pull origin `branch name` = pulls files from given branch.
 Ex:git pull origin master.
