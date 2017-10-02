@@ -4,7 +4,7 @@
 - git pull origin `branch name` = pulls files from given branch.
 Ex:git pull origin master.
 - git status = displays untracked files, which are not added to index.
-- git add <file name with extension> = adds mentioned file into index.
+- git add `file name with extension` = adds mentioned file into index.
 - git add -A = adds all files from local repo to index. g
 - git commit -m `description`
 - git commit -a = commits all files from local repo to remote repo.
