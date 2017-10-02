@@ -1,6 +1,9 @@
 git commands list
 ------------------
 
+
+
+
 git init = initializes git local repo.
 git remote add origin "<cloning path from git hub repo>" = duplicates remote repo to local repo.
 
@@ -17,7 +20,21 @@ git log = logs detailed info on files.g
 
 git clone <git repo url>
 
-git branch <branch name>= creates new branch.
+How to create a branch?
+------------------------
+ans: 
+-----
+>First you need to create branch locally.
+>git branch <branch name>= creates new branch locally.
+
+>Then you need to push branch to remote repo via
+
+>git push -u origin <branch name> = creates new branch on remote repo.
+
+
+
+
+
 git checkout <branch name> = you can switch you given branch.
 
 git -r = displays all existing branches from remote repo.
@@ -44,10 +61,10 @@ $ git branch -D branch_name
 Delete Remote Branch
 -----------------------
 
+$ git push origin --delete <branch_name> which might be easier to remember than ---> $ git push origin :<branch_name>
 
-$ git push origin --delete <branch_name>
 
-which might be easier to remember than
+git remote show origin = displays origin name
 
-$ git push origin :<branch_name>
+
 
