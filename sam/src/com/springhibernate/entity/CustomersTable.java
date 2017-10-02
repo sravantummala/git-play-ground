@@ -11,6 +11,13 @@ import javax.persistence.Table;
 @Table(name = "CustomersTable")
 public class CustomersTable {
 
+	
+	
+	public CustomersTable() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
