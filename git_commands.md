@@ -2,7 +2,7 @@
 - **git init** = initializes git local repo.
 - **git remote add origin  followed by `cloning path from git hub repo`** = duplicates remote repo to local repo.
 - **git pull origin `branch name`** = pulls files from given branch.
-Ex:git pull origin master.
+> Ex:git pull origin master.
 - **git status** = displays untracked files, which are not added to index.
 - **git add `file name with extension`** = adds mentioned file into index.
 - **git add -A** = adds all files from local repo to index. 
@@ -14,7 +14,8 @@ Ex:git pull origin master.
 - **git checkout `branch name`** = you can switch you given branch.
 - **git -r** = displays all existing branches from remote repo.
 - **git merge `branch name`** = you can merge given branch to existing branch.
-Ex: if you are in master branch, then "git merge firstbranch" merges firstbranch to master branch.
+> Ex: if you are in master branch, then "git merge firstbranch" merges firstbranch to master branch.
+- **git remote show origin** = displays origin name.
 - **ssh- keygen** = generates ssh key to include in git repo.
 - **ssh -T git@github.com** = validates ssh key which is addedt to git repo.
 - **cat `file name`** = displays content in the file.
@@ -23,30 +24,14 @@ Ex: if you are in master branch, then "git merge firstbranch" merges firstbranch
 * First you need to create branch locally.
 * git branch <branch name>= creates new branch locally.
 * Then you need to push branch to remote repo via git push -u origin `branch name` = creates new branch on remote repo.
+## How to delete Local Branch?
+- **$ git branch -d `branch name`** = delete a local branch.
+or
+- **$ git branch -D `branch name`** = delete a local branch.
 
+## How to delete Remote Branch?
+- **$ git push origin --delete `branch name`** which might be easier to remember than **$ git push origin :`branch name`**
 
-
-
-
-
-
-Delete Local Branch
---------------------------
-To delete the local branch use:
-
-$ git branch -d branch_name
-
-or use:
-
-$ git branch -D branch_name
-
-Delete Remote Branch
------------------------
-
-$ git push origin --delete <branch_name> which might be easier to remember than ---> $ git push origin :<branch_name>
-
-
-git remote show origin = displays origin name
 
 
 
