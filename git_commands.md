@@ -5,12 +5,19 @@
 Ex:git pull origin master.
 - **git status** = displays untracked files, which are not added to index.
 - **git add `file name with extension`** = adds mentioned file into index.
-- **git add -A** = adds all files from local repo to index. g
+- **git add -A** = adds all files from local repo to index. 
 - **git commit -m `description`** = commits file, which is added to index already.
 - **git commit -a** = commits all files from local repo to remote repo.
 - **git commit -a -m `description`** - = commits all files, which are added to index already.
 - **git log** = logs detailed info on files.
 - **git clone `git remote repo url`** = clones remote repo to local repo.
+- **git checkout `branch name`** = you can switch you given branch.
+- **git -r** = displays all existing branches from remote repo.
+- **git merge `branch name`** = you can merge given branch to existing branch.
+Ex: if you are in master branch, then "git merge firstbranch" merges firstbranch to master branch.
+- **ssh- keygen** = generates ssh key to include in git repo.
+- **ssh -T git@github.com** = validates ssh key which is addedt to git repo.
+- **cat `file name`** = displays content in the file.
 
 ## How to create a local branch?
 * First you need to create branch locally.
@@ -21,17 +28,6 @@ Ex:git pull origin master.
 
 
 
-git checkout <branch name> = you can switch you given branch.
-
-git -r = displays all existing branches from remote repo.
-
-git merge **branch name** = you can merge given branch to existing branch.
-Ex: if you are in master branch, then "git merge firstbranch" merges firstbranch to master branch.
-
-ssh- keygen = generates ssh key to include in git repo.
-ssh -T git@github.com = validates ssh key which is addedt to git repo.
-
-cat <file name> = displays content in the file
 
 
 Delete Local Branch
