@@ -28,8 +28,10 @@
 - **$ git branch -d `branch name`** = delete a local branch.
 or
 - **$ git branch -D `branch name`** = delete a local branch.
+## How to create a remote branch?
+- loading...
 
-## How to delete Remote Branch?
+## How to delete remote branch?
 - **$ git push origin --delete `branch name`** which might be easier to remember than **$ git push origin :`branch name`**
 
 
