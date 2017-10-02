@@ -1,4 +1,5 @@
-#git commands list
+GIT Commands
+-------------
 
 git init = initializes git local repo.
 git remote add origin "<cloning path from git hub repo>" = duplicates remote repo to local repo.
