@@ -15,7 +15,7 @@ Ex:git pull origin master.
 ## How to create a local branch?
 * First you need to create branch locally.
 * git branch <branch name>= creates new branch locally.
-* Then you need to push branch to remote repo via git push -u origin <branch name> = creates new branch on remote repo.
+* Then you need to push branch to remote repo via git push -u origin `branch name` = creates new branch on remote repo.
 
 
 
