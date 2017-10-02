@@ -1,6 +1,6 @@
 # GIT Commands
 - git init = initializes git local repo.
-- git remote add origin "<cloning path from git hub repo>" = duplicates remote repo to local repo.
+- git remote add origin *cloning path from git hub repo* = duplicates remote repo to local repo.
 - git pull origin <branch name> = pulls files from given branch.
 Ex:git pull origin master.
 - git status = displays untracked files, which are not added to index.
@@ -25,7 +25,7 @@ git checkout <branch name> = you can switch you given branch.
 
 git -r = displays all existing branches from remote repo.
 
-git merge <branch name> = you can merge given branch to existing branch.
+git merge **branch name** = you can merge given branch to existing branch.
 Ex: if you are in master branch, then "git merge firstbranch" merges firstbranch to master branch.
 
 ssh- keygen = generates ssh key to include in git repo.
