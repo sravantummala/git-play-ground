@@ -21,9 +21,9 @@ How to create a branch?
 ------------------------
 ans: 
 -----
-1.First you need to create branch locally.
-2.git branch <branch name>= creates new branch locally.
-3.Then you need to push branch to remote repo via git push -u origin <branch name> = creates new branch on remote repo.
+>First you need to create branch locally.
+>git branch <branch name>= creates new branch locally.
+>Then you need to push branch to remote repo via git push -u origin <branch name> = creates new branch on remote repo.
 
 
 
