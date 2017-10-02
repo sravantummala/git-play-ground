@@ -1,9 +1,8 @@
-GIT Commands
+#GIT Commands
 -------------
 
 git init = initializes git local repo.
 git remote add origin "<cloning path from git hub repo>" = duplicates remote repo to local repo.
-
 git pull origin <branch name> = pulls files from given branch.
 Ex:git pull origin master
 
@@ -23,10 +22,7 @@ ans:
 -----
 >First you need to create branch locally.
 >git branch <branch name>= creates new branch locally.
-
->Then you need to push branch to remote repo via
-
->git push -u origin <branch name> = creates new branch on remote repo.
+>Then you need to push branch to remote repo via git push -u origin <branch name> = creates new branch on remote repo.
 
 
 
@@ -42,7 +38,7 @@ Ex: if you are in master branch, then "git merge firstbranch" merges firstbranch
 ssh- keygen = generates ssh key to include in git repo.
 ssh -T git@github.com = validates ssh key which is addedt to git repo.
 
-cat "<file name>" = displays content in the file
+cat <file name> = displays content in the file
 
 
 Delete Local Branch
