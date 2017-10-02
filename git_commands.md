@@ -1,16 +1,16 @@
 # GIT Commands
 - git init = initializes git local repo.
-- git remote add origin `cloning path from git hub repo` = duplicates remote repo to local repo.
-- git pull origin <branch name> = pulls files from given branch.
+- git remote add origin  followed by `cloning path from git hub repo` = duplicates remote repo to local repo.
+- git pull origin `branch name` = pulls files from given branch.
 Ex:git pull origin master.
 - git status = displays untracked files, which are not added to index.
 - git add <file name with extension> = adds mentioned file into index.
 - git add -A = adds all files from local repo to index. g
-- git commit -m "<description>"
+- git commit -m `description`
 - git commit -a = commits all files from local repo to remote repo.
-- git commit -a -m "<description>" 
+- git commit -a -m `description`
 - git log = logs detailed info on files.
-- git clone <git repo url>
+- git clone `git remote repo url`
 
 ## How to create a local branch?
 * First you need to create branch locally.
