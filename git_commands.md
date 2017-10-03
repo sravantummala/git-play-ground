@@ -37,7 +37,7 @@ or
 
 ## I came across this...
 
-**problem:** Entire computer in Git status untracked files.   
+<font color="red">**problem:**</font> Entire computer in Git status untracked files.   
 **solution status:** worked.  
 **reference:** https://stackoverflow.com/questions/34484800/entire-computer-in-git-status-untracked-files  
 **solution**
