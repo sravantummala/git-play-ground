@@ -35,5 +35,13 @@ or
 - **$ git push origin --delete `branch name`** which might be easier to remember than **$ git push origin :`branch name`**
 
 
+## I came across this...
+
+**problem:** Entire computer in Git status untracked files.
+**solution status:** worked.
+**reference:** https://stackoverflow.com/questions/34484800/entire-computer-in-git-status-untracked-files
+**solution**
+- Move to the home folder, using command : `cd ~` 
+- Delete the git repo, using command : `rm -rf .git`
 
 
