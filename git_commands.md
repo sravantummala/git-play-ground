@@ -41,7 +41,7 @@ or
 **solution status:** worked.  
 **reference:** https://stackoverflow.com/questions/34484800/entire-computer-in-git-status-untracked-files  
 **solution**
-- Move to the home folder, using command : `cd ~` 
+- Move to home folder, using command : `cd ~` 
 - Delete the git repo, using command : `rm -rf .git`
 
 
