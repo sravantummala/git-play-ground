@@ -11,7 +11,11 @@ public class DemoApplicationTests {
 
 	@Test
 	public void contextLoads() {
+<<<<<<< HEAD
 		System.out.println("spring boot Demo Application");
+=======
+		System.out.println("testing git merge");
+>>>>>>> f858eda623aa04ea5efbb1573af1e629ea2c1a11
 	}
 
 }
