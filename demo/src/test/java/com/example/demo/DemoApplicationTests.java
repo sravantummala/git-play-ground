@@ -15,6 +15,7 @@ public class DemoApplicationTests {
 		System.out.println("spring boot Demo Application");
 =======
 		System.out.println("testing git merge");
+		System.out.println("testing git merge second time");
 >>>>>>> f858eda623aa04ea5efbb1573af1e629ea2c1a11
 	}
 
