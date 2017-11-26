@@ -44,4 +44,14 @@ or
 - Move to home folder, using command : `cd ~` 
 - Delete the git repo, using command : `rm -rf .git`
 
+**problem:** It is very famous problem that we encounter many times, git push to <some user> is denied to <some user>
+**solution status:** worked.  
+**reference:** https://stackoverflow.com/questions/17857283/permission-denied-error-on-github-push   
+**solution**
+- Go to: Control Panel -> User Accounts -> Manage your credentials -> Windows Credentials  
+- Under Generic Credentials there are some credentials related to Github, Click on them and click "Remove".  
+- When you try to push something, you need to login again. hope this will be helpful for you  
+
+
+
 
