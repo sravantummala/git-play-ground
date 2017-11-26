@@ -44,7 +44,7 @@ or
 - Move to home folder, using command : `cd ~` 
 - Delete the git repo, using command : `rm -rf .git`
 
-**problem:** It is very famous problem that we encounter many times, git push to <some user> is denied to <some user>
+**problem:** It is very famous problem that we encounter many times, git push to `some user` is denied to `some user`   
 **solution status:** worked.  
 **reference:** https://stackoverflow.com/questions/17857283/permission-denied-error-on-github-push   
 **solution**
