@@ -11,7 +11,8 @@
 - **git commit -a -m `description`** - = commits all files, which are added to index already.
 - **git log** = logs detailed info on files.
 - **git clone `git remote repo url`** = clones remote repo to local repo.
-- **git checkout `branch name`** = you can switch you given branch.
+- **git checkout `branch name`** = you can switch you given branch.  
+- **git branch -a** = lists out all branches in remote repo.
 - **git -r** = displays all existing branches from remote repo.
 - **git merge `branch name`** = you can merge given branch to existing branch.
 > **Example:** if you are in master branch, then "git merge firstbranch" merges firstbranch to master branch.
