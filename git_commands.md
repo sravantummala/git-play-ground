@@ -33,7 +33,13 @@ or
 - loading...
 
 ## How to delete remote branch?
-- **$ git push origin --delete `branch name`** which might be easier to remember than **$ git push origin :`branch name`**
+- **$ git push origin --delete `branch name`** which might be easier to remember than **$ git push origin :`branch name`**  
+## Setting git user credentials  
+
+- git config --global user.name "mona lisa"  
+- git config --global user.email "monalisa@gmail.com"  
+  - You can remove --global if you don't want to set user details as global.  
+
 
 
 ## I came across this...
